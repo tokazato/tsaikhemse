@@ -1,0 +1,133 @@
+body {
+ width: 90%;
+ margin: 0 auto;
+ background-color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+nav ul {
+    margin-right: 150px;
+}
+header img {
+    margin-left: 141px;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+    list-style: none;   
+}
+a {
+    text-decoration: none; 
+    color: black;
+    font-size: 14px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+.main-p {
+    font-size: 15px;
+    color: white;
+    margin: 10px 0px 52px 0px;
+}
+.main-img {
+    opacity: 0.5;
+    z-index: -1;
+}
+.main-more {
+    position: absolute;
+    bottom: 108px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+  }
+.button {
+    border: 1px solid #BADC58;
+    background-color: #BADC58;
+    padding: 13px 52px 14px 52px;
+    border-radius: 10px;
+    margin: 20px 0px 33px 0px;
+}
+a:hover {
+    background-color: white;
+    color: #BADC58;
+}
+h2 {
+    font-size: 30px;
+    margin: 53px 0px 40px 0px;
+    text-align: center
+}
+.box {
+    background-color: white;
+    padding: 10px;
+}
+.section-1 {
+    margin: -50px 100px -50px 100px;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    z-index: 1;
+}
+.option {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 700px;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+h3 {
+    font-size: 16px;
+    margin: 20px 0px 5px 0px; 
+}
+.option li p {
+    font-size: 10px;
+    margin: 5px 0px 30px 0px;
+}
+
+footer {
+    background-color: #292C2F;
+    padding: 10px;
+    position: relative;
+    z-index: -1;
+}
+.footer-p {
+    background-color: white;
+    text-align: center;
+    color: rgb(253, 55, 6);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 80px 100px 20px 100px;
+}
+.footer-map {
+    background-color: white;
+    color: black;
+    padding: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px 100px 20px 100px;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 90px 20px 90px;
+    padding: 20px;
+}
