@@ -12,17 +12,15 @@ header {
 .header-pic {
     width: 100px;
     height: 30px;
+    margin-left: 141px;
 }
 nav ul {
-    margin-right: 150px;
-}
-header img {
-    margin-left: 141px;
+    margin-right: 150px;   
 }
 nav ul li {
     display: inline;
     margin: 10px;
-    list-style: none;   
+    list-style: none; 
 }
 a {
     text-decoration: none; 
